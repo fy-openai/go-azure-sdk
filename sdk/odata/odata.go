@@ -93,7 +93,7 @@ type OData struct {
 	MetadataEtag *string `json:"@odata.metadataEtag"`
 	Type         *Type   `json:"@odata.type"`
 	Count        *int    `json:"@odata.count"`
-	NextLink     *Link   `json:"@odata.nextLink"`
+	//NextLink     *Link   `json:"@odata.nextLink"`
 	Delta        *string `json:"@odata.delta"`
 	DeltaLink    *Link   `json:"@odata.deltaLink"`
 	Id           *Id     `json:"@odata.id"`
@@ -102,6 +102,7 @@ type OData struct {
 
 	Error *Error `json:"-"`
 
+	NextLink     *Link   `json:"@odata.nextLink"`
 	Value interface{} `json:"value"`
 }
 
