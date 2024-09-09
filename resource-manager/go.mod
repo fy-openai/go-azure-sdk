@@ -8,6 +8,8 @@ require (
 	github.com/hashicorp/go-azure-helpers v0.67.0
 )
 
+replace github.com/hashicorp/go-azure-sdk => github.com/fy-openai/go-azure-sdk v0.20240610.1112704.sdk.patch.0
+
 require (
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
 	github.com/Azure/go-autorest/autorest/adal v0.9.23 // indirect
