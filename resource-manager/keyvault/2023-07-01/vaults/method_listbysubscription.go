@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/hashicorp/go-azure-helpers/resourcemanager/commonids"
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
+	"github.com/fy-openai/go-azure-sdk/sdk/client"
+	"github.com/fy-openai/go-azure-sdk/sdk/odata"
 )
 
 // Copyright (c) Microsoft Corporation. All rights reserved.
