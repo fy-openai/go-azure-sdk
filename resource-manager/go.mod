@@ -4,8 +4,8 @@ go 1.21
 
 require (
 	github.com/Azure/go-autorest/autorest v0.11.29
+	github.com/fy-openai/go-azure-sdk/sdk v0.20240606.1065252-0.20240909193201-41c70054f89f
 	github.com/hashicorp/go-azure-helpers v0.67.0
-	github.com/fy-openai/go-azure-sdk/sdk v0.20240610.1112704.patch.1
 )
 
 require (
